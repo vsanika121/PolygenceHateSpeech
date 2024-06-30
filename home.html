@@ -1,0 +1,49 @@
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Text Classifier</title>  
+    <link rel="stylesheet" href="home.css"></link>
+</head>  
+<body>  
+    <h1>Report Hate Speech Here</h1>
+    
+    <form method="post"> 
+        <section class="report"></section> 
+            <label for="content">Report harmful phrase/words</label><br>  
+            <textarea id="content" name="content" rows="4" cols="50"></textarea><br>  
+        </section> <br>
+
+        </section class="classify">
+            <label>Type of harm</label><br>  
+            <select name="category" id="category"> 
+                <option value="misinformation">Misinformation</option>
+                <option value="health">Health</option>
+                <option value="inauthenticity">Inauthenticity</option>
+                <option value="abuse">Abuse</option>
+                <option value="hate speech">Hate Speech</option>
+                <option value="privacy">Privacy/Security</option>
+                <option value="illegal">Illegal/Illicit Activities</option>
+                <option value="social inclusion">Social Inclusion</option>
+                <option value="trust">Trust and Confidence</option>
+                <option value="borderline">Borderline Content</option>
+                <option value="children">Children's Well Being</option>
+                <option value="digital">Digital Literacy</option>
+                <option value="global">Global Issues</option>
+                <option value="state">State Violence</option>
+                <option value="humans">Human/Civil Rights</option>
+            
+            </select><br>
+        </section>
+        <section class="correct">
+            <label for="context">Report context in which the phrase is harmful</label>
+            <text>Example: under posts of girls/women this phrase is inappropriate</text> 
+            <textarea id="context" name="context" rows="4" cols="50"></textarea><br>
+        </section>
+        
+
+
+        <input class="submit" type="submit" value="Submit">  
+    </form>  
+</body>  
+</html>  
+

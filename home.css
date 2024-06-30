@@ -1,0 +1,58 @@
+body {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2em; 
+    text-align: center;
+}
+
+.report {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+}
+.classify {
+    margin-top: 50px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.correct {
+    margin-top: 20px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+label {
+       font-size: 1.25em;
+       font-weight: bold;
+}
+
+.submit{
+    padding: 12x 24x;
+    font-size: 18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.submit:hover{
+    background-color: #FFBF00;
+}
+.submit:active{
+    background-color:#FF7F50;
+}
